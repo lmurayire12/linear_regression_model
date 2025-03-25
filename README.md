@@ -38,4 +38,39 @@ Example response:
 }
 ```
 
+## Watch the video demo here: <>
+
+# How to Run the App
+##  Clone my repo 
+Open your terminal
+
+```json
+git clone https://github.com/lmurayire12/linear_regression_model.git
+```
+ Navigate to the Project Folder
+ ```json
+ cd summative/FlutterApp/boston_housing
+```
+
+# Prerequisites
+Flutter SDK installed
+Android Studio or Visual Studio Code
+A physical or virtual device (emulator)
+
+#Run the App
+
+1. Install dependencies
+
+```json
+flutter pub get
+```
+
+2. Run the app:
+
+```json
+flutter run 
+```
+
+### Ensure your device/emulator is connected before running the app.
+
 
