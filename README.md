@@ -49,7 +49,9 @@ git clone https://github.com/lmurayire12/linear_regression_model.git
 ```
  Navigate to the Project Folder
  ```json
+ {
  cd summative/FlutterApp/boston_housing
+ }
 ```
 
 # Prerequisites
