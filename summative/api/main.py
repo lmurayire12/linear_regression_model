@@ -4,6 +4,7 @@ from pydantic import BaseModel, conint, confloat
 import joblib
 import pandas as pd
 import uvicorn
+import os
 
 # Initializing FastAPI app
 app = FastAPI(title="Boston Housing Price Prediction API")
@@ -18,7 +19,8 @@ app.add_middleware(
 )
 
 # Loading the trained model
-model = joblib.load('boston_model.pkl')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model = joblib.load(os.path.join(BASE_DIR, 'boston_model.pkl'))
 
 # Defining input data using Pydantic BaseModel
 class HouseFeatures(BaseModel):
