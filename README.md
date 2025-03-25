@@ -50,7 +50,7 @@ git clone https://github.com/lmurayire12/linear_regression_model.git
  Navigate to the Project Folder
  ```json
  {
- cd summative/FlutterApp/boston_housing
+ "cd summative/FlutterApp/boston_housing"
  }
 ```
 
@@ -64,15 +64,42 @@ A physical or virtual device (emulator)
 1. Install dependencies
 
 ```json
-flutter pub get
+{
+"flutter pub get"
+}
 ```
 
 2. Run the app:
 
 ```json
-flutter run 
+{
+"flutter run"
+}
 ```
 
 ### Ensure your device/emulator is connected before running the app.
+
+# Assets 
+Make sure this image exists in the assets folder:
+
+```json
+
+{
+    "assets/house.jpg"
+}
+```
+
+Then include it in your pubspec.yaml:
+
+```json
+
+{
+
+"flutter:
+  assets:
+    - assets/house.jpg"
+    }
+```
+
 
 
