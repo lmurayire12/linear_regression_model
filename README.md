@@ -1,6 +1,7 @@
-# 🏡 Boston Housing Price Predictor
+# 🏡 Boston Housing Price Drop Predictor
 
-This is a mobile Flutter app that predicts house prices in the Boston area using a machine learning model. The app takes various housing-related input values like crime rate, number of rooms, and tax rate, then displays the estimated price using a remote prediction API.
+This is a mobile Flutter app that predicts how house prices may drop in the Boston area based on negative property and neighborhood conditions.
+The app takes various housing-related inputs like crime rate, number of rooms, and tax rate, then shows the estimated price using a remote machine learning API helping users understand how specific factors can reduce home value.
 
 ---
 
@@ -38,7 +39,7 @@ Example response:
 }
 ```
 
-## Watch the video demo here: <>
+## Watch the video demo here: https://youtu.be/A0QLtXzVFRs
 
 # How to Run the App
 ##  Clone my repo 
