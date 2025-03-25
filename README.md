@@ -29,42 +29,13 @@ https://bostonhousing-wo52.onrender.com/predict
   "ptratio": 20.2,
   "lstat": 30.0
 }
+```
 
 Example response:
-
+```json
 {
   "predicted_price": 49250.0
 }
-
-
-# Watch the demo here: YouTube Demo Video
-
-# How to Run the App
-
-Clone my repo: 
-
-Open your termainal
-
-Type git clone https://github.com/lmurayire12/linear_regression_model.git
-
-Navigate to the app folder:
-
-cd summative/FlutterApp/boston_housing
-
-Prerequisites
-
-Flutter SDK installed (Install Flutter)
-
-Android Studio or Visual Studio Code
-
-Physical or virtual device (emulator)
-
-Installation Steps
-
-1. Get dependencies: RUN flutter pub get
-
-2. RUN the app: flutter run
-
-Ensure your device or emulator is connected.
+```
 
 
