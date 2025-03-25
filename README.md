@@ -35,12 +35,12 @@ Example response:
   "predicted_price": 49250.0
 }
 
-json```
+```json
 
 
-Watch the demo here: YouTube Demo Video
+# Watch the demo here: YouTube Demo Video
 
-How to Run the App
+# How to Run the App
 
 Clone my repo: 
 
