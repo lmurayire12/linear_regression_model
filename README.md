@@ -35,6 +35,9 @@ Example response:
   "predicted_price": 49250.0
 }
 
+json```
+
+
 Watch the demo here: YouTube Demo Video
 
 How to Run the App
@@ -64,6 +67,5 @@ Installation Steps
 2. RUN the app: flutter run
 
 Ensure your device or emulator is connected.
-
 
 
