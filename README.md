@@ -44,7 +44,7 @@ Example response:
 ##  Clone my repo 
 Open your terminal
 
-```json
+```bash
 git clone https://github.com/lmurayire12/linear_regression_model.git
 ```
  Navigate to the Project Folder
@@ -63,17 +63,14 @@ A physical or virtual device (emulator)
 1. Install dependencies
 
 ```bash
-{
-"flutter pub get"
-}
+flutter pub get
+
 ```
 
 2. Run the app:
 
-```json
-{
-"flutter run"
-}
+```bash
+flutter run
 ```
 
 ### Ensure your device/emulator is connected before running the app.
@@ -81,23 +78,16 @@ A physical or virtual device (emulator)
 # Assets 
 Make sure this image exists in the assets folder:
 
-```json
-
-{
-    "assets/house.jpg"
-}
+```bash
+    assets/house.jpg
 ```
 
 Then include it in your pubspec.yaml:
 
-```json
-
-{
-
-"flutter:
+```bash
+flutter:
   assets:
-    - assets/house.jpg"
-    }
+    - assets/house.jpg
 ```
 
 
