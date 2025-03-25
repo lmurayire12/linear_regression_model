@@ -48,10 +48,9 @@ Open your terminal
 git clone https://github.com/lmurayire12/linear_regression_model.git
 ```
  Navigate to the Project Folder
- ```json
- {
- "cd summative/FlutterApp/boston_housing"
- }
+ ```bash
+cd summative/FlutterApp/boston_housing 
+
 ```
 
 # Prerequisites
@@ -63,7 +62,7 @@ A physical or virtual device (emulator)
 
 1. Install dependencies
 
-```json
+```bash
 {
 "flutter pub get"
 }
