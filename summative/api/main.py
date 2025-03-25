@@ -21,6 +21,7 @@ app.add_middleware(
 # Loading the trained model
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 model = joblib.load(os.path.join(BASE_DIR, 'boston_model.pkl'))
+scaler = joblib.load(os.path.join(BASE_DIR, 'scaler.pkl'))
 
 # Defining input data using Pydantic BaseModel
 class HouseFeatures(BaseModel):
@@ -39,6 +40,7 @@ class HouseFeatures(BaseModel):
 def predict(features: HouseFeatures):
     input_df = pd.DataFrame([features.model_dump()])
     input_df.columns = input_df.columns.str.upper() 
+    scaled_input = scaler.transform(input_df)
     prediction = model.predict(input_df)[0]
 
     return {"predicted_price": round(prediction, 2)}
