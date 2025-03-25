@@ -5,12 +5,11 @@ from sklearn.model_selection import train_test_split
 import joblib
 
 # Load dataset
-url = "https://raw.githubusercontent.com/selva86/datasets/master/BostonHousing.csv"
-data = pd.read_csv(url)
+data = pd.read_csv("BostonHousing.csv")
 
 # Selecting features and target
-X = data[['crim', 'zn', 'indus', 'rm', 'age', 'dis', 'rad', 'tax', 'ptratio', 'lstat']]
-y = data['medv']
+X = data[['CRIM', 'ZN', 'INDUS', 'RM', 'AGE', 'DIS', 'RAD', 'TAX', 'PTRATIO', 'LSTAT']]
+y = data['MEDV']
 
 # Split data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
