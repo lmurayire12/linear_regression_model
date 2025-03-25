@@ -38,6 +38,7 @@ class HouseFeatures(BaseModel):
 @app.post('/predict')
 def predict(features: HouseFeatures):
     input_df = pd.DataFrame([features.model_dump()])
+    input_df.columns = input_df.columns.str.upper() 
     prediction = model.predict(input_df)[0]
 
     return {"predicted_price": round(prediction, 2)}
