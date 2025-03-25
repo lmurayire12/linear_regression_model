@@ -60,16 +60,16 @@ Flutter SDK installed
 Android Studio or Visual Studio Code
 A physical or virtual device (emulator)
 
-# Run the App
+## Run the App
 
-1. ## Install dependencies
+1. ### Install dependencies
 
 ```bash
 flutter pub get
 
 ```
 
-2. ## Run the app:
+2. ### Run the app:
 
 ```bash
 flutter run
