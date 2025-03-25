@@ -11,9 +11,10 @@ This app uses a publicly available API to return predictions based on user input
 https://bostonhousing-wo52.onrender.com/predict
 
 
-- Method: `POST`
-- Content-Type: `application/json`
-- Example request body:
+- **Method:** POST  
+- **Content-Type:** application/json
+
+### 📥 Example Input
 
 ```json
 {
@@ -34,8 +35,6 @@ Example response:
 {
   "predicted_price": 49250.0
 }
-
-```json
 
 
 # Watch the demo here: YouTube Demo Video
